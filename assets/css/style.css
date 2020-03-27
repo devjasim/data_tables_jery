@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    line-height:1.6rem;
+    letter-spacing:.5pt;
+    background:#ff8a00;
+    color:#000000 !important;
+}
+.date-range-picker{
+    padding:50px;
+}
+
+.datepicker.dropdown-menu{
+    top:180px !important;
+}
+
+.date-range-picker .data-table{
+    background:#f8f6f8;
+    color:#000;
+    padding:100px;
+    border-radius :30px;
+}
+
+
+
+.date-range-picker .search-form .button .btn{
+    background:#fffefd;
+    border-radius:10px;
+    font-size:14px;
+    color:#1f150c;
+    border:none;
+    box-shadow: 0 0 10px rgba(255,255,255, .6);
+    padding: 8px 25px;
+}
+
+.date-range-picker .search-form .button .btn:focus{
+    outline:none;
+    box-shadow:none;
+}
+
+
+
+.date-range-picker .data-table tr.total-value td{
+    font-size:16px;
+    text-align:center;
+}
+
+.date-range-picker .data-table tr.total-value th.sub-total{
+    font-size:18px;
+}
+
+.date-range-picker .data-table tr.total-value td.credit{
+    border-right:1px solid #ddd !important;
+}
+
+.date-range-picker .search-form input:focus{
+    outline:none;
+    box-shadow:none;
+}
+
+.date-range-picker .data-table .diff strong{
+    font-size:18px;
+}
+.date-range-picker .data-table .diff th{
+    font-size:18px;
+}
+
+.date-range-picker .data-table .diff td.diff-total{
+    border-right:1px solid #ddd;
+    text-align:center;
+}
+
+.date-range-picker .data-table input:focus,
+.date-range-picker .data-table select:focus,
+.date-range-picker .data-table a.page-link:focus{
+    box-shadow:none;
+    outline:none;
+}
+
+.date-range-picker .data-table .all-data td.date:nth-child(end){
+    border-bottom:1px solid #ddd ;
+}
+
+
+@media screen and (max-width:768px){
+    .date-range-picker .data-table{
+        padding:30px;
+    }
+}
+
+@media screen and (max-width:680px){
+    .date-range-picker{
+        padding:50px 0px;
+    }
+}
